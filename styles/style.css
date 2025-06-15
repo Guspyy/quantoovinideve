@@ -21,6 +21,7 @@ body{
     /*oxi doido*/
 }
 .background-main{
+    background-image: url('');
     vertical-align: bottom;
     align-content: center;
     align-items: center;
@@ -73,4 +74,10 @@ body{
 .title-money{
     color: lime;
     visibility: hidden;
+}
+
+.title-mainseg{
+    margin: 2%;
+    font-size: 33px;
+    color: rgb(106, 245, 255);
 }
