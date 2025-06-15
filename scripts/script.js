@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-        timerElement.textContent = `Faltam ${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos restantes para o dia de pagamento rs.`;
+        timerElement.textContent = `Faltam ${days} dias, ${hours} horas, ${minutes} minutos e ${seconds} segundos restantes para o dia de pagamento rs`;
     }
 
     const timerInterval = setInterval(updateTimer, 1000);
